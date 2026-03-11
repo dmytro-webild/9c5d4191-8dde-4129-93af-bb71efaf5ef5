@@ -166,15 +166,15 @@ export default function LandingPage() {
 
       <div id="faq" data-section="faq">
         <FaqSplitText
-          sideTitle="Frequently Asked Questions"
-          sideDescription="Everything you need to know about getting started on SkillMatch."
+          sideTitle="Tez-tez so'raladigan savollar"
+          sideDescription="TeenTaskda ishlashni boshlash haqida bilishingiz kerak bo‘lgan barcha narsalar."
           faqs={[
-            { id: "1", title: "Who can join SkillMatch?", content: "Any student or teenager aged 13+ with internet access can join. You'll need a valid email, parental consent if under 18, and a payment method to receive earnings." },
-            { id: "2", title: "How do I get paid?", content: "Once you complete a task and it's approved, payment is transferred to your account within 3-5 business days. We support multiple payment methods including digital wallets, bank transfers, and gift cards." },
-            { id: "3", title: "What if I don't have any experience?", content: "Perfect! We have beginner-friendly tasks for every skill level. Start with easier projects to build experience and unlock higher-paying opportunities as you grow." },
-            { id: "4", title: "Can I work for mentors and companies?", content: "Absolutely! Mentors review your work and provide feedback to help you improve. Companies post small projects that are perfect for learning and building portfolio pieces." },
-            { id: "5", title: "How much can I earn?", content: "Earnings vary based on task complexity and your skill level. Beginner tasks start at $5-20, while advanced projects can pay $50+. The more you complete and improve, the more you can earn." },
-            { id: "6", title: "Is my portfolio secure and professional?", content: "Yes! Your portfolio is private by default. You can choose which projects to showcase publicly. We help format everything professionally so you can share it with schools and employers." }
+            { id: "1", title: "Kim TeenTaskga qo'shila oladi?", content: "Any student or teenager aged 13+ with internet access can join. You'll need a valid email, parental consent if under 18, and a payment method to receive earnings." },
+            { id: "2", title: "Qanday qilib to'lovni olaman?", content: "Once you complete a task and it's approved, payment is transferred to your account within 3-5 business days. We support multiple payment methods including digital wallets, bank transfers, and gift cards." },
+            { id: "3", title: "Agar menda hech qanday tajriba bo'lmasa-chi?", content: "Perfect! We have beginner-friendly tasks for every skill level. Start with easier projects to build experience and unlock higher-paying opportunities as you grow." },
+            { id: "4", title: "Men ustoz bo'lib yoki kompaniyalarda ishlashim mumkinmi?", content: "Absolutely! Mentors review your work and provide feedback to help you improve. Companies post small projects that are perfect for learning and building portfolio pieces." },
+            { id: "5", title: "Qancha daromad topishim mumkin? ", content: "Earnings vary based on task complexity and your skill level. Beginner tasks start at $5-20, while advanced projects can pay $50+. The more you complete and improve, the more you can earn." },
+            { id: "6", title: "Mening portfelim xavfsiz va professionalmi?", content: "Yes! Your portfolio is private by default. You can choose which projects to showcase publicly. We help format everything professionally so you can share it with schools and employers." }
           ]}
           textPosition="left"
           faqsAnimation="slide-up"
@@ -187,11 +187,11 @@ export default function LandingPage() {
         <FooterMedia
           imageSrc="http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg?_wi=2"
           imageAlt="Student building portfolio"
-          logoText="SkillMatch"
+          logoText="TeenTask "
           copyrightText="© 2025 SkillMatch. Empowering young creators worldwide."
           columns={[
             {
-              title: "Platform",              items: [
+              title: "Sayt ",              items: [
                 { label: "How It Works", href: "#how-it-works" },
                 { label: "Categories", href: "#categories" },
                 { label: "Pricing", href: "#benefits" },
@@ -199,7 +199,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Resources",              items: [
+              title: "Resurslar ",              items: [
                 { label: "Blog", href: "#" },
                 { label: "Help Center", href: "#" },
                 { label: "FAQ", href: "#faq" },
@@ -207,7 +207,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Company",              items: [
+              title: "Companiya",              items: [
                 { label: "About Us", href: "#about" },
                 { label: "Contact", href: "#contact" },
                 { label: "Privacy Policy", href: "#" },
