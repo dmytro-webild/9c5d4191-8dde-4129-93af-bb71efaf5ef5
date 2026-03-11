@@ -134,10 +134,10 @@ export default function LandingPage() {
           title="Nimaga TeenTask ga qo'shilish kerak?"
           description="Qobiliyatlaringizni kelajagingiz uchun aniq afzalliklarga aylantiring."
           metrics={[
-            { id: "1", value: "Real Experience", description: "Work on actual projects with real feedback" },
-            { id: "2", value: "Build Portfolio", description: "Showcase your work to schools and employers" },
-            { id: "3", value: "Earn Money", description: "Get paid for completed and approved tasks" },
-            { id: "4", value: "Discover Path", description: "Explore careers and find your passion" }
+            { id: "1", value: "Haqiqiy loyihalar va vazifalar ", description: "Haqiqiy loyihalar ustida haqiqiy fikr-mulohazalar bilan ishlang" },
+            { id: "2", value: "Yoshlarni erta kasbga yo‘naltirish ", description: "Yoshlarni ertakasbga yo'naltiradi " },
+            { id: "3", value: "Daromad qilish ", description: "Bajarilgan va tasdiqlangan vazifalar uchun pul oling" },
+            { id: "4", value: "O'z bilimlaringizni ulashish ", description: "O'z bilimlaringizni ulashib daromad qiling" }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -188,7 +188,7 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg?_wi=2"
           imageAlt="Student building portfolio"
           logoText="TeenTask "
-          copyrightText="© 2025 SkillMatch. Empowering young creators worldwide."
+          copyrightText="© 2026 TeenTask. Dunyo bo'ylab yosh ijodkorlarni qo'llab-quvvatlash."
           columns={[
             {
               title: "Sayt ",              items: [
