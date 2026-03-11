@@ -114,12 +114,12 @@ export default function LandingPage() {
           tagIcon={Lightbulb}
           tagAnimation="slide-up"
           products={[
-            { id: "1", name: "Dasturlash", price: "Small to Large Projects", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=2", imageAlt: "Programming tasks" },
-            { id: "2", name: "Grafika dizayni", price: "Logo & UI Design", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=2", imageAlt: "Design tasks" },
-            { id: "3", name: "Kontent yozish", price: "Articles & Stories", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=2", imageAlt: "Writing tasks" },
-            { id: "4", name: "Robotics & Invention", price: "STEM Projects", imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg?_wi=2", imageAlt: "Robotics tasks" },
-            { id: "5", name: "AI Tasks", price: "Machine Learning", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg?_wi=2", imageAlt: "AI learning tasks" },
-            { id: "6", name: "Video Creation", price: "Editing & Production", imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg?_wi=2", imageAlt: "Video tasks" }
+            { id: "1", name: "Dasturlash", price: "Kichikdan katta loyihalarga", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=2", imageAlt: "Programming tasks" },
+            { id: "2", name: "Grafika dizayni", price: "Logotip va UI dizayni", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=2", imageAlt: "Design tasks" },
+            { id: "3", name: "Kontent yozish", price: "Maqolalar va hikoyalar", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=2", imageAlt: "Writing tasks" },
+            { id: "4", name: "Robototexnika va Ixtirochilik", price: "STEM loyihalari", imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg?_wi=2", imageAlt: "Robotics tasks" },
+            { id: "5", name: "AI Vazifalari", price: "Mashinalarni o'rganish ", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg?_wi=2", imageAlt: "AI learning tasks" },
+            { id: "6", name: "Video yaratish", price: "Tahrirlash & ishlab chiqarish", imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg?_wi=2", imageAlt: "Video tasks" }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -131,8 +131,8 @@ export default function LandingPage() {
 
       <div id="benefits" data-section="benefits">
         <MetricCardTwo
-          title="Why Join SkillMatch?"
-          description="Transform your abilities into tangible advantages for your future."
+          title="Nimaga TeenTask ga qo'shilish kerak?"
+          description="Qobiliyatlaringizni kelajagingiz uchun aniq afzalliklarga aylantiring."
           metrics={[
             { id: "1", value: "Real Experience", description: "Work on actual projects with real feedback" },
             { id: "2", value: "Build Portfolio", description: "Showcase your work to schools and employers" },
@@ -156,8 +156,8 @@ export default function LandingPage() {
             { id: "5", name: "Emma Wilson", imageSrc: "http://img.b2bpic.net/free-photo/youth-happiness-beauty-fashion-close-up-portrait-happy-attractive-young-african-woman-with-braces-enjoying-her-leisure-time-indoors-modern-cafe-dressed-trendy-jeans-shirt_273609-475.jpg", imageAlt: "Emma Wilson" },
             { id: "6", name: "Alex Kumar", imageSrc: "http://img.b2bpic.net/free-photo/young-hispanic-teenager-student-holding-books-with-relaxed-expression-isolated-red-metal-background_839833-19044.jpg", imageAlt: "Alex Kumar" }
           ]}
-          cardTitle="Trusted by thousands of students earning real income and building amazing portfolios"
-          cardTag="Join thousands of young creators"
+          cardTitle="Haqiqiy daromad olayotgan va ajoyib portfellarni yaratayotgan minglab talabalar ishonchini qozongan"
+          cardTag="Minglab yosh ijodkorlarga qo'shiling"
           cardTagIcon={Star}
           cardAnimation="slide-up"
           useInvertedBackground={false}
