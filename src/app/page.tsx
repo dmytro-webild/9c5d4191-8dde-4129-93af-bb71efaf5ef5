@@ -44,7 +44,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroSplitDoubleCarousel
           title="Loyiha va ko'nikmalaringizni haqiqiy loyiha va daromatga aylantiring"
-          description="TeenTask — bu maktab o‘quvchilari va yoshlar uchun yaratilgan platforma bo‘lib, u yerda ular o‘z qiziqishi va qobiliyatiga mos kichik online loyihalar va vazifalarni bajarishlari mumkin. "
+          description="TeenTask — bu maktab o'quvchilari va yoshlar uchun yaratilgan platforma bo'lib, u yerda ular o'z qiziqishi va qobiliyatiga mos kichik online loyihalar va vazifalarni bajarishlari mumkin. "
           tag="O'quvchi & Yoshlar uchun "
           tagIcon={Sparkles}
           tagAnimation="slide-up"
@@ -77,7 +77,7 @@ export default function LandingPage() {
           tagIcon={Target}
           tagAnimation="slide-up"
           title="                TeenTask Project"
-          description="TeenTask — bu maktab o‘quvchilari va yoshlar uchun yaratilgan zamonaviy platforma bo‘lib, u yerda ular o‘z qiziqishi va qobiliyatiga mos kichik online loyihalar va vazifalarni bajarishlari mumkin. Platforma yoshlarning dasturlash, dizayn, yozish, ixtirochilik va boshqa yo‘nalishlarda tajriba orttirishiga yordam beradi. Foydalanuvchilar vazifani bajarib topshiradi, ish tekshiriladi va muvaffaqiyatli bajarilgan ishlar uchun mukofot yoki to‘lov olish imkoniyati bo‘ladi.TeenTaskning asosiy maqsadi — yoshlarning iste’dodini erta aniqlash, ularni rivojlantirish va kelajak kasbiga tayyorlashdir. Ko‘plab o‘quvchilar turli sohalarga qiziqadi, ammo o‘z bilimlarini amalda sinab ko‘rish uchun imkoniyat topa olmaydi. TeenTask aynan shu muammoni hal qilish uchun yaratilgan.Platforma orqali yoshlar nafaqat yangi bilim va tajriba orttiradi, balki o‘z portfolio va loyihalarini ham shakllantira oladi. Bu esa ularga kelajakda ta’lim olish, ish topish yoki o‘z startaplarini yaratishda katta yordam beradi.Bizning maqsadimiz — yoshlar uchun ochiq, xavfsiz va ilhomlantiruvchi muhit yaratish. TeenTask orqali har bir o‘quvchi o‘z iste’dodini namoyish qilishi, yangi ko‘nikmalarni o‘rganishi va o‘z kelajagini qurishda ilk qadamlarni tashlashi mumkin."
+          description="TeenTask — bu maktab o'quvchilari va yoshlar uchun yaratilgan zamonaviy platforma bo'lib, u yerda ular o'z qiziqishi va qobiliyatiga mos kichik online loyihalar va vazifalarni bajarishlari mumkin. Platforma yoshlarning dasturlash, dizayn, yozish, ixtirochilik va boshqa yo'nalishlarda tajriba orttirishiga yordam beradi. Foydalanuvchilar vazifani bajarib topshiradi, ish tekshiriladi va muvaffaqiyatli bajarilgan ishlar uchun mukofot yoki to'lov olish imkoniyati bo'ladi.TeenTaskning asosiy maqsadi — yoshlarning iste'todini erta aniqlash, ularni rivojlantirish va kelajak kasbiga tayyorlashdir. Ko'plab o'quvchilar turli sohalarga qiziqadi, ammo o'z bilimlarini amalda sinab ko'rish uchun imkoniyat topa olmaydi. TeenTask aynan shu muammoni hal qilish uchun yaratilgan.Platforma orqali yoshlar nafaqat yangi bilim va tajriba orttiradi, balki o'z portfolio va loyihalarini ham shakllantira oladi. Bu esa ularga kelajakda ta'lim olish, ish topish yoki o'z startaplarini yaratishda katta yordam beradi.Bizning maqsadimiz — yoshlar uchun ochiq, xavfsiz va ilhomlantiruvchi muhit yaratish. TeenTask orqali har bir o'quvchi o'z iste'todini namoyish qilishi, yangi ko'nikmalarni o'rganishi va o'z kelajagini qurishda ilk qadamlarni tashlashi mumkin."
           subdescription=""
           icon={Rocket}
           imageSrc="http://img.b2bpic.net/free-photo/young-pretty-woman-with-feeling-excitement-cafe_1150-15394.jpg"
@@ -95,7 +95,7 @@ export default function LandingPage() {
           tagIcon={CheckCircle}
           tagAnimation="slide-up"
           features={[
-            { icon: UserPlus, title: "Profilingizni yarating ", description: "Bir necha daqiqada ro'yxatdan o'ting va bizga o'z mahoratingiz va qiziqishlaringiz haqida gapirib bering.", button: { text: "Sign Up", href: "#contact" } },
+            { icon: UserPlus, title: "Profilingizni yarating ", description: "Bir necha daqiqada ro'yxatdan o'ting va bizga o'z mahoratingiz va qiziqishlaringiz haqida gapirib bering.", button: { text: "Royhatdan o'tish", href: "#contact" } },
             { icon: Zap, title: "Kategoriyangizni tanlang", description: "Dasturlash, dizayn, yozish, robototexnika, AI va boshqa sohalardan tanlang.", button: { text: "Explore Categories", href: "#categories" } },
             { icon: Code2, title: "Vazifalarni bajaring ", description: "O'zingizning mahorat darajangiz va qiziqishlaringizga mos keladigan haqiqiy loyihalar ustida ishlang.", button: { text: "Browse Tasks", href: "#contact" } },
             { icon: Award, title: "Daromad oling va o'sing", description: "Pul ishlab toping va o'zingizni ustingizda ishlab mahoratingizni oshiring.", button: { text: "Start Earning", href: "#contact" } }
