@@ -108,15 +108,15 @@ export default function LandingPage() {
 
       <div id="categories" data-section="categories">
         <ProductCardOne
-          title="Explore Task Categories"
-          description="Choose from diverse fields that match your talents and passion."
-          tag="Skills"
+          title="Vazifa kategoriyalarini o'rganing"
+          description="Iste'dodingiz va ishtiyoqingizga mos keladigan turli sohalardan birini tanlang."
+          tag="Ko'nikmalar "
           tagIcon={Lightbulb}
           tagAnimation="slide-up"
           products={[
-            { id: "1", name: "Programming", price: "Small to Large Projects", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=2", imageAlt: "Programming tasks" },
-            { id: "2", name: "Graphic Design", price: "Logo & UI Design", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=2", imageAlt: "Design tasks" },
-            { id: "3", name: "Content Writing", price: "Articles & Stories", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=2", imageAlt: "Writing tasks" },
+            { id: "1", name: "Dasturlash", price: "Small to Large Projects", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=2", imageAlt: "Programming tasks" },
+            { id: "2", name: "Grafika dizayni", price: "Logo & UI Design", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=2", imageAlt: "Design tasks" },
+            { id: "3", name: "Kontent yozish", price: "Articles & Stories", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=2", imageAlt: "Writing tasks" },
             { id: "4", name: "Robotics & Invention", price: "STEM Projects", imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg?_wi=2", imageAlt: "Robotics tasks" },
             { id: "5", name: "AI Tasks", price: "Machine Learning", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg?_wi=2", imageAlt: "AI learning tasks" },
             { id: "6", name: "Video Creation", price: "Editing & Production", imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg?_wi=2", imageAlt: "Video tasks" }
