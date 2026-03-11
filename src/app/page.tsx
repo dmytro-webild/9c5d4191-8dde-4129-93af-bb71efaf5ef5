@@ -89,16 +89,16 @@ export default function LandingPage() {
 
       <div id="how-it-works" data-section="how-it-works">
         <FeatureHoverPattern
-          title="How It Works"
-          description="Get started in four simple steps and begin earning while building real experience."
-          tag="Process"
+          title="Bu qanday ishlaydi? "
+          description="To'rtta oddiy qadamda bajaring va haqiqiy tajriba orttirib, daromad olishni boshlang."
+          tag="Jarayon "
           tagIcon={CheckCircle}
           tagAnimation="slide-up"
           features={[
-            { icon: UserPlus, title: "Create Your Profile", description: "Sign up in minutes and tell us about your skills and interests.", button: { text: "Sign Up", href: "#contact" } },
-            { icon: Zap, title: "Choose Your Category", description: "Select from programming, design, writing, robotics, AI, and more.", button: { text: "Explore Categories", href: "#categories" } },
-            { icon: Code2, title: "Complete Tasks", description: "Work on real projects matched to your skill level and interests.", button: { text: "Browse Tasks", href: "#contact" } },
-            { icon: Award, title: "Earn & Grow", description: "Get paid, receive feedback, and build an impressive portfolio.", button: { text: "Start Earning", href: "#contact" } }
+            { icon: UserPlus, title: "Profilingizni yarating ", description: "Bir necha daqiqada ro'yxatdan o'ting va bizga o'z mahoratingiz va qiziqishlaringiz haqida gapirib bering.", button: { text: "Sign Up", href: "#contact" } },
+            { icon: Zap, title: "Kategoriyangizni tanlang", description: "Dasturlash, dizayn, yozish, robototexnika, AI va boshqa sohalardan tanlang.", button: { text: "Explore Categories", href: "#categories" } },
+            { icon: Code2, title: "Vazifalarni bajaring ", description: "O'zingizning mahorat darajangiz va qiziqishlaringizga mos keladigan haqiqiy loyihalar ustida ishlang.", button: { text: "Browse Tasks", href: "#contact" } },
+            { icon: Award, title: "Daromad oling va o'sing", description: "Pul ishlab toping va o'zingizni ustingizda ishlab mahoratingizni oshiring.", button: { text: "Start Earning", href: "#contact" } }
           ]}
           textboxLayout="default"
           animationType="slide-up"
