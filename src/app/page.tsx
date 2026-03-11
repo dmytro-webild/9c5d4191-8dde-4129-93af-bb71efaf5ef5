@@ -50,15 +50,15 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg", imageAlt: "Student coding on laptop" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg", imageAlt: "Young designer working" },
-            { imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg", imageAlt: "Student writer typing" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg", imageAlt: "Teen with robotics project" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=1", imageAlt: "Student coding on laptop" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=1", imageAlt: "Young designer working" },
+            { imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=1", imageAlt: "Student writer typing" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg?_wi=1", imageAlt: "Teen with robotics project" }
           ]}
           rightCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg", imageAlt: "Students earning money" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg", imageAlt: "Young people collaborating" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg", imageAlt: "Student portfolio showcase" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg?_wi=1", imageAlt: "Students earning money" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg?_wi=1", imageAlt: "Young people collaborating" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg?_wi=1", imageAlt: "Student portfolio showcase" },
             { imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-businesswoman-lift-hands-up-does-fist-pump-celebrates-victory-wins-smth-achi_1258-123471.jpg", imageAlt: "Teen celebrating success" }
           ]}
           buttons={[
@@ -114,12 +114,12 @@ export default function LandingPage() {
           tagIcon={Lightbulb}
           tagAnimation="slide-up"
           products={[
-            { id: "1", name: "Programming", price: "Small to Large Projects", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg", imageAlt: "Programming tasks" },
-            { id: "2", name: "Graphic Design", price: "Logo & UI Design", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg", imageAlt: "Design tasks" },
-            { id: "3", name: "Content Writing", price: "Articles & Stories", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg", imageAlt: "Writing tasks" },
-            { id: "4", name: "Robotics & Invention", price: "STEM Projects", imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg", imageAlt: "Robotics tasks" },
-            { id: "5", name: "AI Tasks", price: "Machine Learning", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg", imageAlt: "AI learning tasks" },
-            { id: "6", name: "Video Creation", price: "Editing & Production", imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg", imageAlt: "Video tasks" }
+            { id: "1", name: "Programming", price: "Small to Large Projects", imageSrc: "http://img.b2bpic.net/free-photo/young-boy-playing-computer_23-2148860557.jpg?_wi=2", imageAlt: "Programming tasks" },
+            { id: "2", name: "Graphic Design", price: "Logo & UI Design", imageSrc: "http://img.b2bpic.net/free-photo/colorful-overloaded-bullet-journal_23-2150248183.jpg?_wi=2", imageAlt: "Design tasks" },
+            { id: "3", name: "Content Writing", price: "Articles & Stories", imageSrc: "http://img.b2bpic.net/free-psd/foreign-language-classes-horizontal-banner-template-computer-interface-style_23-2149442029.jpg?_wi=2", imageAlt: "Writing tasks" },
+            { id: "4", name: "Robotics & Invention", price: "STEM Projects", imageSrc: "http://img.b2bpic.net/free-photo/group-young-people-doing-experiments-robotics-laboratory-girls-protective-glasses_1268-24389.jpg?_wi=2", imageAlt: "Robotics tasks" },
+            { id: "5", name: "AI Tasks", price: "Machine Learning", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-working-together_23-2148594485.jpg?_wi=2", imageAlt: "AI learning tasks" },
+            { id: "6", name: "Video Creation", price: "Editing & Production", imageSrc: "http://img.b2bpic.net/free-photo/indoor-portrait-cheerful-students-holding-their-phones-smiling-graceful-african-girl-earphones-jeans-making-selfie-with-friends-university_197531-3815.jpg?_wi=2", imageAlt: "Video tasks" }
           ]}
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -185,7 +185,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/international-group-three-managers-working-together-new-project-analyzing-concept-plans-using-digital-tablet_273609-6357.jpg?_wi=2"
           imageAlt="Student building portfolio"
           logoText="SkillMatch"
           copyrightText="© 2025 SkillMatch. Empowering young creators worldwide."
